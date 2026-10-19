@@ -1,0 +1,4 @@
+model,val loss,perplexity
+uniform guess,4.174,65.0
+bigram,2.482,11.965
+GPT-tiny,1.626,5.083
