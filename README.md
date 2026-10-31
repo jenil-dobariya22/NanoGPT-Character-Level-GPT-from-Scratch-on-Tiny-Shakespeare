@@ -187,7 +187,3 @@ For a quick execution check, set `DRYRUN = True`. This reduces the number of tra
 - Validation loss is estimated from fixed sampled windows, and the best checkpoint is selected using that same validation estimate; the resulting reported value may be slightly optimistic.
 - Zero-ablation is a useful diagnostic intervention, but it is not a complete causal account of an attention head's role.
 - The optional depth sweep was not executed, so the notebook does not support claims about the best model depth.
-
-## Acknowledgements
-
-The notebook follows the educational architecture of Andrej Karpathy's ["Let's build GPT"](https://www.youtube.com/watch?v=kCc8FmEb1nY), with its own implementation checks, baseline comparison, training protocol, attention visualisation, and ablation analysis. The Tiny Shakespeare text is sourced from the [char-rnn repository](https://github.com/karpathy/char-rnn).
